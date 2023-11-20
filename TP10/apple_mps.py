@@ -2,7 +2,6 @@
 
 def benchmark_mps(size=10000, warmpup=True):
     import time
-    from tqdm import tqdm
 
     torch.manual_seed(1234)
     TENSOR_A_CPU = torch.rand(size, size)
