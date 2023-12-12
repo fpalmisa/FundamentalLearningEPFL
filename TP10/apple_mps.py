@@ -1,5 +1,3 @@
-
-
 def benchmark_mps(size=10000, warmpup=True):
     import time
 
